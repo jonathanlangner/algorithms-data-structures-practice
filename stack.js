@@ -3,7 +3,8 @@
 
 
 const maxStackSize = 80;
-const stackStorage = Array(maxStackSize).fill(0); 
+const stackStorage = Array(maxStackSize).fill(0);
+
 let total = -1;
 
 //isEmpty Returns true if stack is empty, false otherwise.
@@ -38,7 +39,7 @@ const lifoPush = function (x) {
 
 // LIFO Pop: Pop the item from the top of the stack.
 const lifoPop = function () {
-    if(total == -1){
+    if(total === -1){
         console.log("Stack Underflow");
         return false;
     }
@@ -52,7 +53,7 @@ const lifoPop = function () {
 
 //stackSize: Returns the Size of the Stack as integer.
 const stackSize = function () {
-    if(total == -1){ // If it is -1 there are no elements on the stack.
+    if(total === -1){ // If it is -1 there are no elements on the stack.
         console.log("Nothing on Stack");
     }
     else{ // Returns number of elements presently on the Stack.
@@ -91,3 +92,6 @@ for(let i=0; i < 3; i++){
 printStack();
 
 console.log(`Stack Size is: ${stackSize()}`);
+
+
+
