@@ -93,5 +93,3 @@ printStack();
 
 console.log(`Stack Size is: ${stackSize()}`);
 
-
-

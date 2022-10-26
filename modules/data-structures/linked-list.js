@@ -56,3 +56,4 @@ const searchList = function(n) {
 console.log(searchList(1));
 console.log(searchList(3));
 console.log(searchList(7));
+
