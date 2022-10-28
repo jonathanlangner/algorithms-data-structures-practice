@@ -83,8 +83,8 @@ const stack ={
 };
 
 
+export {stack};
 
-module.exports = stack;
 
 
 

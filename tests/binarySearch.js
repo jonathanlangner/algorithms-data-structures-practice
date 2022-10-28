@@ -20,6 +20,4 @@ const binarySearch = function(a, searchItem, low, high){
     return false;
 }
 
-module.exports = binarySearch;
-
-
+export {binarySearch};

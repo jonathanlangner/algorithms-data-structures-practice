@@ -12,5 +12,4 @@ const checkSortResult = function(a){
 
 //TODO An Alphabetical Character Sort Check, &  A Word Alphabetical Sort Check.
 
-
-module.exports = checkSortResult;
+export {checkSortResult};

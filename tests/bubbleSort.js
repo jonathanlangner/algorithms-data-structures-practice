@@ -16,7 +16,7 @@ const bubbleSort = function(arr){
 }
 
 
+export {bubbleSort};
 
-module.exports = bubbleSort;
 
 

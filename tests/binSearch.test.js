@@ -1,6 +1,6 @@
-import {bigArr, primesForBinSearch} from "../modules/data-structures/arrays";
-const binarySearch = require("../modules/algorithms/binarySearch");
-const bubbleSort = require("../modules/algorithms/bubbleSort");
+import {bigArr, primesForBinSearch} from "./arrays";
+import {binarySearch} from "./binarySearch";
+import {bubbleSort} from "./bubbleSort";
 
 //Binary Search Must be preformed on a sorted array.
 const unsortedArr = [...bigArr];

@@ -8,4 +8,4 @@ const linearSearch = function (a, s){
         return false;
 }
 
-module.exports = linearSearch;
+export {linearSearch};

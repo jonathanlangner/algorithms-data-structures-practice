@@ -56,6 +56,6 @@ const linkedList ={
     printResult: printList,
 };
 
+export {searchList, printList};
 
-module.exports = linkedList;
 

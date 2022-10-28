@@ -1,4 +1,4 @@
-const bigArr = require("../data-structures/arrays");
+import {bigArr} from "../data-structures/arrays.mjs";
 
     const smallDupe = [1,2,4,4,5,6,7,7,9,7,7,7];
     let valueList = [];
@@ -36,6 +36,6 @@ const removeDuplicates = function(arr){
     }
 
 }
+export {removeDuplicates};
 
-module.exports = removeDuplicates;
 

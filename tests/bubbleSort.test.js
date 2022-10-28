@@ -1,6 +1,6 @@
-import {bigArr, primesForBinSearch} from "../modules/data-structures/arrays";
-const checkSortResult = require("../modules/algorithms/checkSortResult");
-const bubbleSort = require("../modules/algorithms/bubbleSort");
+import {bigArr, primesForBinSearch} from "./arrays.js";
+import {checkSortResult} from "./checkSortResult.js";
+import {bubbleSort} from "./bubbleSort.js";
 
 //Cloning the arrays using the spread operator so as to not change the original array.
 const unsortedArr = [...bigArr];

@@ -6,9 +6,13 @@
   "directories": {
     "test": "jest"
   },
+  
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app.mjs"
   },
+
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jonathanlangner/algorithms-data-structures-practice.git"
@@ -24,7 +28,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
+    "@babel/node": "^7.20.0",
     "@babel/preset-env": "^7.19.4",
-    "babel-jest": "^29.2.2"
+    "babel-jest": "^29.2.2",
+    "nodemon": "^2.0.20"
   }
 }
