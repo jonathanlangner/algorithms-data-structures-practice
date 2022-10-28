@@ -36,7 +36,7 @@ A front end interface is being designed and planned for the app.
 ---
 ## Requirements
 
-For development, you will need Node.js and a node global package, Yarn, installed in your environment.
+For development, you will need Node.js installed in your environment.
 Additionally, you will need express.js and jest for running and testing the different algorithms and data structures.
 
 ### Installing Node
