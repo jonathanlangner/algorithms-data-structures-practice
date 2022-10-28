@@ -1,7 +1,5 @@
 // ? Goal: Create a stack with a customizable size, and begin familiarizing myself with this data type.
 // ? See geeksforgeeks for example.
-
-
 const maxStackSize = 80;
 const stackStorage = Array(maxStackSize).fill(0);
 
@@ -74,22 +72,38 @@ const printStack = function(){
         }
 }
 
+
+const stack ={ 
+    checkEmpty: isEmpty,
+    printResult: printStack,
+    peak: lifoPeak,
+    push: lifoPush,
+    pop: lifoPop,
+    checkSize:stackSize
+};
+
+
+
+module.exports = stack;
+
+
+
 // Function Calls for LIFO
-console.log(`Stack Size is: ${stackSize()}`);
-console.log(`Is the Stack Empty? ${isEmpty()}`);
-console.log(`Peak Returned: ${lifoPeak()}`);
+// console.log(`Stack Size is: ${stackSize()}`);
+// console.log(`Is the Stack Empty? ${isEmpty()}`);
+// console.log(`Peak Returned: ${lifoPeak()}`);
 
-for(let i=0; i < 25; i++){
-    lifoPush(Math.round(Math.random() * 300));
-}
-printStack();
-console.log(`Is the Stack Empty? ${isEmpty()}`);
+// for(let i=0; i < 25; i++){
+//     lifoPush(Math.round(Math.random() * 300));
+// }
+// printStack();
+// console.log(`Is the Stack Empty? ${isEmpty()}`);
 
-for(let i=0; i < 3; i++){
-    lifoPop();
-}
+// for(let i=0; i < 3; i++){
+//     lifoPop();
+// }
 
-printStack();
+// printStack();
 
-console.log(`Stack Size is: ${stackSize()}`);
+// console.log(`Stack Size is: ${stackSize()}`);
 

@@ -29,3 +29,4 @@ Build examples which will use my data structures and algorithm skills and begin 
 
 Additional Objective:
 Begin implementing testing into all future JS Projects by using node.js and Jest.
+A front end interface is being designed and planned for the app.

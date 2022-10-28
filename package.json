@@ -1,0 +1,30 @@
+{
+  "name": "algorithms-data-structures-practice",
+  "version": "1.0.0",
+  "description": "A place to practice algorithms and data structures.",
+  "main": "app.js",
+  "directories": {
+    "test": "jest"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanlangner/algorithms-data-structures-practice.git"
+  },
+  "author": "Jonathan Langner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanlangner/algorithms-data-structures-practice/issues"
+  },
+  "homepage": "https://github.com/jonathanlangner/algorithms-data-structures-practice#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-jest": "^29.2.2"
+  }
+}

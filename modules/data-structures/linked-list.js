@@ -32,7 +32,7 @@ fifth.previous = fourth;
 const printList = function(){
     let n = head;
     while(n !== null){
-        console.log(n.data + " ");
+        // console.log(n.data + " ");
         n = n.next;
     }
 }
@@ -51,9 +51,11 @@ const searchList = function(n) {
     return false;
 }
 
-//console.log(head, second, third);
+const linkedList ={ 
+    search: searchList,
+    printResult: printList,
+};
 
-console.log(searchList(1));
-console.log(searchList(3));
-console.log(searchList(7));
+
+module.exports = linkedList;
 
