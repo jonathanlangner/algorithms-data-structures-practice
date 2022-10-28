@@ -340,4 +340,4 @@ const primesForBinSearch = [
   ];
 
 
-  export {bigArr, primesForBinSearch};
+  export {bigArr, primesForBinSearch, charArr};

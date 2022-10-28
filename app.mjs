@@ -10,7 +10,7 @@ import {linearSearch} from "./modules/algorithms/linearSearch.mjs";
 import {removeDuplicates} from "./modules/algorithms/removeDuplicates.mjs";   
 
 //DATA STRUCTURES
-// import {printList, searchList} from "./modules/data-structures/linkedList.mjs"; //! Error from this import
+import {printList, searchList} from "./modules/data-structures/linkedList.mjs";
 import {stack} from "./modules/data-structures/stack.mjs";
 
 const app = express();

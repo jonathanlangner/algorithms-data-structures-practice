@@ -6,17 +6,17 @@
 // 2. Searching from beginning to end or vice versa.
 
 let head; 
-const Node =  function(d) {
+const linkedList =  function(d) {
     this.data = d;
     this.next = null;
     this.previous = null;
 }
 
-head = new Node(1);
-let second = new Node(2);
-let third = new Node(3);
-let fourth = new Node(4);
-let fifth = new Node(5);
+head = new linkedList(1);
+let second = new linkedList(2);
+let third = new linkedList(3);
+let fourth = new linkedList(4);
+let fifth = new linkedList(5);
 
 
 head.next = second;
@@ -31,14 +31,15 @@ fifth.previous = fourth;
 
 const printList = function(){
     let n = head;
+    let listData = [];
+    let i = 0;
     while(n !== null){
-        // console.log(n.data + " ");
+        listData[i] = n;
         n = n.next;
+        ++i;
     }
+    return listData;
 }
-
-
-printList();
 
 const searchList = function(n) { 
     let s = head; // This search is linear from head to tail of the list.
@@ -51,10 +52,6 @@ const searchList = function(n) {
     return false;
 }
 
-const linkedList ={ 
-    search: searchList,
-    printResult: printList,
-};
 
 export {searchList, printList};
 
