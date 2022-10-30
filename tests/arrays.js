@@ -339,5 +339,11 @@ const primesForBinSearch = [
     6, 51,
   ];
 
+  const multiDimensionalArr = [
+    ["Width",  3],
+    ["Length", 3],
+    ["Height", 6.5],
+  ]; 
 
-  export {bigArr, primesForBinSearch, charArr};
+
+  export {bigArr, primesForBinSearch, charArr, multiDimensionalArr};

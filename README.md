@@ -6,11 +6,11 @@ Additionally, I am beginning to add testing for the project, as I want to begin 
 
 My goal is to go through a variety of Data Structures including:
 
-a. Stacks (Array Stack Done.)
-b. Queues
+a. Stacks (Initial Setup Done)
+b. Queues (Initial Setup Done)
 c. Binary Trees
 d. Hashing
-e. Linked Lists
+e. Linked Lists (Initial Setup Done)
 f. Graphs
 g. Heaps
 h. Multi-dimensional Arrays. 

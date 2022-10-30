@@ -1,7 +1,7 @@
 import express from "express";
 
 //ARRAYS FOR OPERATING ON.
-import {bigArr, primesForBinSearch} from "./modules/data-structures/arrays.mjs";
+import {bigArr, primesForBinSearch,charArr, multiDimensionalArr} from "./modules/data-structures/arrays.mjs";
 
 //ALGORITHMS:
 import {binarySearch} from "./modules/algorithms/binarySearch.mjs";
@@ -12,6 +12,7 @@ import {removeDuplicates} from "./modules/algorithms/removeDuplicates.mjs";
 //DATA STRUCTURES
 import {printList, searchList} from "./modules/data-structures/linkedList.mjs";
 import {stack} from "./modules/data-structures/stack.mjs";
+import {queue} from "./modules/data-structures/queue.mjs";
 
 const app = express();
 const PORT = 3003;
