@@ -1,4 +1,4 @@
-import {bigArr, primesForBinSearch, charArr, multiDimensionalArr} from "./arrays";
+import {bigArr, primesForBinSearch, charArr, multiDimensionalArr, matrix, mazeOne} from "./arrays";
 
 
 test("checks to see if the bigArr exists. result equals true", () => {
@@ -17,4 +17,10 @@ test("checks to see if multiDimensionalArr exists. result equals true", () => {
     expect(multiDimensionalArr != undefined || null).toBe(true);
 });
 
+test("checks to see if matrix exists. result equals true", () => {
+    expect(matrix != undefined || null).toBe(true);
+});
 
+test("checks to see if mazeOne exists. result equals true", () => {
+    expect(mazeOne != undefined || null).toBe(true);
+});

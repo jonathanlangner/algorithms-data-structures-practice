@@ -345,5 +345,23 @@ const primesForBinSearch = [
     ["Height", 6.5],
   ]; 
 
+  const matrix = [
+    [3, 7, 12,],
+    [4,3,1],
+    [21, 8, 13]
+  ];
 
-  export {bigArr, primesForBinSearch, charArr, multiDimensionalArr};
+  const mazeOne =[ //10x10 maze
+    ['-','-','-','-', '-', '-', '-','-',  '-', '-'],
+    ['|','o', '|', 'o', '|', 'o', 'o', 'o','o','|'],
+    ['|','o', '|', 'o', 'o', 'o', 'o', '|','|','|'],
+    ['|','|', '|', '|', 'o', '|', 'o', 'o','o','o'],
+    ['o','o', '|', '|', '|', '|', '|', 'o','o','|'],
+    ['|','o', '|', 'o', '|', 'o', 'o', 'o','o','|'],
+    ['|','o', 'o', 'o', 'o', 'o', 'o', '|','|','|'],
+    ['|','o', 'o', '|', '|', 'o', '|', 'o','o','|'],
+    ['|','o', 'o', 'o', '|', 'o', 'o', '|','|','|'],
+    ['-','-','-','-','-', '-', '-', '-', '-',  '-']
+  ];
+
+  export {bigArr, primesForBinSearch, charArr, multiDimensionalArr, matrix, mazeOne};

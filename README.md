@@ -6,11 +6,11 @@ Additionally, I am beginning to add testing for the project, as I want to begin 
 
 ## My goal is to go through a variety of Data Structures including:
 
-a. Stacks (Initial Setup Done)
-b. Queues (Initial Setup Done)
+a. Stacks 
+b. Queues 
 c. Binary Trees
 d. Hashing
-e. Linked Lists (Initial Setup Done)
+e. Linked Lists 
 f. Graphs
 g. Heaps
 h. Matrices. 
@@ -23,7 +23,7 @@ c. Sorting Algorithms
 d. Hashing Algorithms
 e. Divide and Conquer Algorithms
 f. Maze Generation and Solving and Algorithms
-g Pattern Matching
+g. Pattern Matching
 h. I will add other Algorithms along the way if I find them to valuable or useful to the project.
 
 
