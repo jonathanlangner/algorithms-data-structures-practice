@@ -4,7 +4,7 @@ A place to practice algorithms and data structures.
 Additionally, I am beginning to add testing for the project, as I want to begin getting in the habit of testing each of my projects.
 
 
-My goal is to go through a variety of Data Structures including:
+## My goal is to go through a variety of Data Structures including:
 
 a. Stacks (Initial Setup Done)
 b. Queues (Initial Setup Done)
@@ -13,16 +13,18 @@ d. Hashing
 e. Linked Lists (Initial Setup Done)
 f. Graphs
 g. Heaps
-h. Multi-dimensional Arrays. 
+h. Matrices. 
 
 
-After I have gone through and practiced with the Data Structures I will be practicing a variety of Algorithms planned thus far:
+## After I have gone through and practiced with the Data Structures I will be practicing a variety of Algorithms planned thus far:
 a. Recursive Algorithms
 b. Sorting Algorithms
 c. Sorting Algorithms
 d. Hashing Algorithms
 e. Divide and Conquer Algorithms
-f. I will add other Algorithms along the way if I find them to valuable or useful to the project.
+f. Maze Generation and Solving and Algorithms
+g Pattern Matching
+h. I will add other Algorithms along the way if I find them to valuable or useful to the project.
 
 
 My end goal of this practice:
