@@ -13,6 +13,7 @@ import {removeDuplicates} from "./modules/algorithms/removeDuplicates.mjs";
 import {printList, searchList} from "./modules/data-structures/linkedList.mjs";
 import {stack} from "./modules/data-structures/stack.mjs";
 import {queue} from "./modules/data-structures/queue.mjs";
+import {binLeaf, treePrinter} from "./modules/data-structures/binaryTree.mjs";
 
 const app = express();
 const PORT = 3003;
