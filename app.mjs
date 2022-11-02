@@ -1,4 +1,11 @@
 import express from "express";
+import path from "path";
+import {fileURLToPath} from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const router = express.Router();
+
+
 
 //ARRAYS FOR OPERATING ON.
 import {bigArr, primesForBinSearch,charArr, multiDimensionalArr} from "./modules/data-structures/arrays.mjs";
@@ -22,10 +29,17 @@ const unsort = [...bigArr];
 const sortedArr = bubbleSort(unsort);
 
 
-app.get('/', (req, res)=>{
-    res.status(200);
-    res.send("Result is: " + sortedArr); 
-});
+router.get('/',function(req,res){
+    res.sendFile(path.join(__dirname+'/express/index.html'));
+    //__dirname : It will resolve to your project folder.
+  });
+  
+  router.get('/shop',function(req,res){
+    res.sendFile(path.join(__dirname+'/express/shop.html'));
+  });
+  
+
+app.use('/', router);
 
 app.listen(PORT, (error) =>{
     if(!error)
