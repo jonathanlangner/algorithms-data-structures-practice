@@ -1,6 +1,6 @@
-import {bigArr, primesForBinSearch} from "./arrays.js";
-import {checkSortResult} from "./checkSortResult.js";
-import {selectionSort} from "./selectionSort.js";
+import {bigArr, primesForBinSearch} from "../modules/data-structures/arrays";
+import {checkSortResult} from "../modules/algorithms/checkSortResult";
+import {selectionSort} from "../modules/algorithms/selectionSort";
 
 //Cloning the arrays using the spread operator so as to not change the original array.
 const unsortedArr = [...bigArr];

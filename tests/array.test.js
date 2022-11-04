@@ -1,4 +1,4 @@
-import {bigArr, primesForBinSearch, charArr, multiDimensionalArr, matrix, mazeOne} from "./arrays";
+import {bigArr, primesForBinSearch, charArr, multiDimensionalArr, matrix, mazeOne} from "../modules/data-structures/arrays";
 
 
 test("checks to see if the bigArr exists. result equals true", () => {

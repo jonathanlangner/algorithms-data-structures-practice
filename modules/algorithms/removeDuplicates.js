@@ -1,4 +1,4 @@
-import {bigArr} from "../data-structures/arrays.mjs";
+import {bigArr} from "../data-structures/arrays.js";
 
     const smallDupe = [1,2,4,4,5,6,7,7,9,7,7,7];
     let valueList = [];

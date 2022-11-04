@@ -1,5 +1,5 @@
-import {linearSearch} from "./linearSearch.js";
-import {bigArr, primesForBinSearch} from "./arrays.js";
+import {linearSearch} from "../modules/algorithms/linearSearch";
+import {bigArr, primesForBinSearch} from "../modules/data-structures/arrays";
 
 const primes = [...primesForBinSearch];
 

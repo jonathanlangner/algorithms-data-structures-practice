@@ -1,6 +1,6 @@
-import {bigArr, primesForBinSearch} from "./arrays";
-import {binarySearch} from "./binarySearch";
-import {bubbleSort} from "./bubbleSort";
+import {bigArr, primesForBinSearch} from "../modules/data-structures/arrays";
+import {binarySearch} from "../modules/algorithms/binarySearch";
+import {bubbleSort} from "../modules/algorithms/bubbleSort";
 
 //Binary Search Must be preformed on a sorted array.
 const unsortedArr = [...bigArr];
